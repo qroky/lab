@@ -1,0 +1,15 @@
+# RB4 baseline (framework/REPO-STRUCTURE.md) — OS artifacts
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# RB4 baseline — editor swap files
+*.swp
+*.swo
+*~
+
+# heartbeat local state (runtime/claude/heartbeat)
+runtime/claude/heartbeat/out/
+runtime/claude/heartbeat/heartbeat.log
+runtime/claude/telegram/profile.conf
