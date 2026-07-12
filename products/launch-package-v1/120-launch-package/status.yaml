@@ -1,10 +1,10 @@
 atom: ATOM-120
 product: Soft Launch Package v1
-status: in-progress
+status: delivered-verified (awaiting CEO G2)
 formulated_by: launch session from CEO order INFO-021 (2026-07-09), amended INFO-030/031/043
 g1: GATE-033 (2026-07-12)
 budget_envelope: 550000
-budget_spent: 207000
+budget_spent: 330000
 children:
   - id: 121
     scope: README rewrite + FAQ + docs/UPDATES.md + CONTRIBUTING.md + CHANGELOG alignment (framework, local branch)
@@ -27,7 +27,17 @@ children:
     scope: blind verify over the text package (H1-H11 machine-checkable)
     tier: L
     envelope: 140000
-    status: dispatched
+    spent: 112000
+    status: accepted-r1
+    verdict: ACCEPT (no blocking; 2 minor + 3 notes; auditable-vs-H3 lex posterior CONFIRMED with reservation for G2)
+fix_round:
+  by: orchestrator (mechanical, in-envelope)
+  commit: 542cb15
+  items:
+    - "F1: REPO-GUIDE — restored intro/'Who it is for'/license line (H2) + recorded correction four→five normative documents"
+    - "F2: CHANGELOG pre-tag records pointer → qroky/lab URL"
+    - "F3: MANIFEST — 3 decisions/ links → lab URLs, four→five docs count ×2"
+  freeze_check: OK on clean archive (12 manifest entries)
 gates:
   g2: CEO reads all outward texts; publication HUMAN-TASK (S4/S5)
 recursion_allowance: 2
