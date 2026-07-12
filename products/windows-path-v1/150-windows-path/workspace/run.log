@@ -1,0 +1,53 @@
+# run.log — ATOM-150 (windows-path-v1), 12.07.2026
+
+RECOVERY. Branch atom-150-windows-path active. Partial uncommitted edits in en.sh/ro.sh
+from the crashed run: L_*_NO_LAUNCHD -> L_*_NO_SCHEDULER rename + L_SCHED_CRON_NOTE add.
+Assessed: correct, on-mandate (H2 "texts evolve, point at the layer + docs"). KEPT.
+
+Survey (read-only): install.sh scheduling surface mapped —
+  telegram deploy 859-917 (2 plists) + _telegram_bootstrap_attempt 933 (launchctl);
+  _write_heartbeat_files 1113 (1 plist) + _heartbeat_enable_attempt 1173;
+  step_heartbeat 1182; cmd_enable_heartbeat 1500; cmd_uninstall launchd loop 1708.
+  Guards: command -v launchctl @906/1188/1503. Launcher/PATH block (1408-1467)
+  ALREADY covers bash profiles (ATOM-131) -> H2 launcher part is done, no change.
+  docs/ ships whole via dist-manifest -> WINDOWS.md auto-covered.
+  In-repo harness = distribution/dry-run.sh (24 scenarios, launchctl-stub, macOS).
+
+STEP 1 — lang parity. ru.sh brought to en/ro parity (rename + L_SCHED_CRON_NOTE).
+  bash -n en/ro/ru OK. Key parity 104/104/104, names identical. COMMIT 321bc85.
+
+STEP 2 — install.sh scheduler layer.
+  Inserted after run_with_ladder: SCHED_BACKEND/SCHED_USED globals, _sched_backend
+  (override|launchd|systemd|cron|none), _sched_run dispatcher (launchd fn called
+  VERBATIM), _crontab_replace_block (idempotent marker block), systemd attempts
+  (_telegram_systemd_attempt/_heartbeat_systemd_attempt -> ~/.config/systemd/user
+  units + enable --now), cron attempts (_telegram_cron_attempt/_heartbeat_cron_attempt).
+  Wired 3 dispatch sites + uninstall (systemd units + cron block, tool-guarded so
+  macOS unchanged). state: sched_backend field (load+commit). bash -n OK. COMMIT 2933682.
+
+STEP 3 — regression. Ran distribution/dry-run.sh against modified install.sh: 24/24 PASS
+  (macOS launchd end-to-end intact — dispatch refactor did not disturb it).
+
+STEP 4 — atom150-harness.sh (workspace/harness/). Sources install.sh functions (final
+  CLI case stripped) under bash; PATH-shadow stubs for systemctl/crontab in isolated
+  mktemp+HOME sandbox. First run 7/9: A3 failed (test used different ws/HOME so plists
+  legitimately differed) + E failed (grep -c || echo 0 double-print). Fixed both TEST
+  bugs (A3 uses identical inputs snapshot-then-cmp; E drops the || echo). Re-run 9/9.
+
+STEP 5 — real Linux. open -a Docker; daemon up ~ after image pull. ubuntu:22.04, apt
+  bash+git+cron. linux-in-container.sh: L1 autodetect=cron (real), L2 real crontab
+  write+idempotent+foreign-preserved, L3 none->rc3, L4 bash -n, L5 full 9-check harness
+  green on Linux bash. 5/5. systemd stayed simulated (no live systemd bus in container).
+
+STEP 6 — non-vacuity. Mutation A (plist minute 7->8): A1+A3 FAIL as required. Mutation B
+  (drop cron digest line): C FAIL as required. Harness is falsification-ready.
+
+STEP 7 — docs. docs/WINDOWS.md (EN, 3-step WSL2 + same one-liner + differences + honest
+  boundaries). README line 93 -> "macOS and Linux/WSL2" + guide link (one line). CHANGELOG
+  v0.5 (user-benefit, "your Mac doesn't change a byte"). NO tag. COMMIT 6d6dbb0.
+
+STEP 8 — gates. bash -n all edited OK. verify.sh on git archive HEAD export -> FREEZE-CHECK
+  OK (12 entries). Lang parity re-confirmed 104x3.
+
+TOTALS: 3 commits, harness 33/33 (24 shipped + 9 atom-150) + 5/5 real-Linux, mutations proven.
+NO push, NO tag, main untouched.
