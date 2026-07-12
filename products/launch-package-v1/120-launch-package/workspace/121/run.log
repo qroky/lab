@@ -1,0 +1,13 @@
+2026-07-12 ATOM-121 START — mandate read (INPUT.md H1-H11 §3 §5, STATUS.md house-map amendment, NARRATIVE.md)
+2026-07-12 READ framework: README.md (old), dist-manifest, qroky.sh, distribution/README.en.md, CHANGELOG.md, runtime/INTERFACE.md, MANIFEST.md, heartbeat/README.md
+2026-07-12 READ install.sh update mechanics (lines 1090-1180, 1470-1699): check-update/details/apply-update/heartbeat plist — commands verified against code
+2026-07-12 READ lab proofs: 007 RESULT.md (2.76M / 21 agents), 074 LENS-VERDICT ($8/M blocked as placeholder -> token numbers only), INFO-020 (autonomy hero), INFO-039 (harness vocabulary + convergence), 072 showcase example-cost-line.txt (177,951)
+2026-07-12 WRITE README.md — EN-only storefront, Codex five-point order, hero formula verbatim, seat-belt P2 with accountability contour, skeptic FAQ, early access block
+2026-07-12 WRITE docs/REPO-GUIDE.md — old navigator content-identical (links re-prefixed ../)
+2026-07-12 WRITE docs/UPDATES.md — mechanics/local-edits/manual/rollback/disable, «don't touch my instance» explicit, identity guarantee
+2026-07-12 WRITE CONTRIBUTING.md — BDFL, touch-queue door, forking welcomed, trademark, ports per runtime/INTERFACE.md
+2026-07-12 EDIT distribution/dist-manifest +CONTRIBUTING.md (root files listed by name)
+2026-07-12 CHECK H3 hero grep (clean, formula-only), verbatim lines grep (all present), relative links (zero broken), verify.sh freeze (pass; only untracked .DS_Store junk), CHANGELOG consistency (no edits)
+2026-07-12 COMMIT x2 local on atom-120-launch-package, no push (S4/S5)
+2026-07-12 FLAGS: E7 H1-amended-vs-H3 substring tension (lex posterior applied, whole-word grep); MANIFEST.md broken decisions/ links (pre-existing, touch-queue candidate)
+2026-07-12 ATOM-121 END — spend ~95k of ~230k envelope

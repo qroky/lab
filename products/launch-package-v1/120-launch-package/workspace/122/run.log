@@ -1,0 +1,10 @@
+2026-07-12 ATOM-122 sales-operator run
+[1] read mandate: 120-launch-package/INPUT.md (H5, H6, S2, S3, §3.5), STATUS.md (house-map correction: artifacts -> lab marketing/), NARRATIVE.md
+[2] read facts (framework read-only): rpf/CHANGELOG.md head (v0.4-v0.4.2: curl one-liner, qroky command, dist-manifest), rpf/distribution/README.en.md (8 questions, ~3 min, <15 min, what-leaves-machine list)
+[3] read voice source: ~/.claude/skills/style/style-profile.md (cross-language constants, RU/RO/EN registers, anti-patterns)
+[4] mkdir qroky-lab/marketing/handoff + workspace/122
+[5] wrote handoff.en.md, handoff.ru.md, handoff.ro.md (3 paragraphs each, native composition, raw-material header comment, forwardable text below rule)
+[6] wrote marketing/launch-checklist.md (order, readiness criterion, wave counter table, verbatim trigger + INFO-024 rule)
+[7] wrote workspace/122/RESULT.md, narrative-notes.md, this run.log
+[8] no git operations; framework untouched; LinkedIn draft not written (FROZEN INFO-031); landing note recorded in RESULT only (GATE-032 no.5)
+end of run

@@ -4,23 +4,30 @@ status: in-progress
 formulated_by: launch session from CEO order INFO-021 (2026-07-09), amended INFO-030/031/043
 g1: GATE-033 (2026-07-12)
 budget_envelope: 550000
-budget_spent: 0
+budget_spent: 207000
 children:
   - id: 121
     scope: README rewrite + FAQ + docs/UPDATES.md + CONTRIBUTING.md + CHANGELOG alignment (framework, local branch)
     tier: M
     envelope: 230000
-    status: dispatched
+    spent: 128000
+    status: delivered
+    commits: [d9e24d3, 802c213]
+    flags:
+      - "E7: INFO-043 formula carries 'auditable' vs H3 bans audit in hero — executor applied lex posterior (whole-word grep clean); awaiting verify/CEO"
+      - "out-of-scope finding: MANIFEST.md broken local decisions/ links post-SEPARATION"
+      - "out-of-scope finding: REPO-GUIDE inherited 'four normative documents' (five files)"
   - id: 122
     scope: messenger handoff EN/RU/RO + wave launch checklist (lab marketing/)
     tier: M
     envelope: 100000
-    status: dispatched
+    spent: 79000
+    status: delivered
   - id: 121-122-verify
     scope: blind verify over the text package (H1-H11 machine-checkable)
     tier: L
     envelope: 140000
-    status: queued
+    status: dispatched
 gates:
   g2: CEO reads all outward texts; publication HUMAN-TASK (S4/S5)
 recursion_allowance: 2
