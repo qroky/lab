@@ -24,7 +24,7 @@ Nothing else was read. Live web fetches were limited to spot-checking URLs/claim
 | :---- | :---- | :---- | :---- |
 | H1 | `ls -l products/business-strategy-v1/naming/naming-verdict.md` | `-rw-r--r-- ... 6337 Jul 5 17:02 .../naming-verdict.md` | pass |
 | H2 | section-scoped `grep -cE '^\| [1-7] \|'` per candidate (sed ranges Candidate 1→2, Candidate 2→Dead) | Atomaro: 7; Qroky: 7; enumerated numbers 1–7 present in both, no gaps | pass |
-| H3 | `grep -c Atomico` + inspect hit context | count = 4; includes dedicated section "## Atomico confusion flag (required assessment)" with per-candidate assessment sentences | pass |
+| H3 | `grep -c [изъято — GATE-032]` + inspect hit context | count = 4; includes dedicated section "## [изъято — GATE-032] confusion flag (required assessment)" with per-candidate assessment sentences | pass |
 | H4 | `grep -E '^\| [1-7] \|' \| grep -vcE '\(source:\|assumption\|not verifiable'` over all 14 evidence rows | 0 unmarked rows (14/14 carry `(source:` or `assumption`/`not verifiable`) | pass |
 | H5 | `grep -n '## Verdict'`; `grep -nc 'Recommendation'` | `## Verdict` at line 49; `Recommendation` 1 hit at line 56, marked "(exactly one)" | pass (see F2 on verdict-token vocabulary) |
 

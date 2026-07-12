@@ -20,7 +20,7 @@ round: 1; returns_used: 0 (VP15).
 **Hard criteria:**
 - H1. File exists at `products/business-strategy-v1/naming/naming-verdict.md`. Check: `ls`.
 - H2. For each of Atomaro and Qroky: all 7 checklist points present as numbered evidence rows. Check: grep for point numbering per candidate section (2 × 7 rows).
-- H3. Atomico confusion risk explicitly assessed (the flag §3.3 requires). Check: `grep -c Atomico` ≥ 1 in an assessment sentence.
+- H3. [изъято — GATE-032] confusion risk explicitly assessed (the flag §3.3 requires). Check: `grep -c [изъято — GATE-032]` ≥ 1 in an assessment sentence.
 - H4. Every evidence row carries a source (input §3.3, URL, or repo path, with date) or the explicit marker `assumption` / `not verifiable`. Check: grep each row for `(source:` or `assumption` or `not verifiable`.
 - H5. A Verdict section with per-candidate go/hold/kill and exactly one recommendation. Check: grep `## Verdict`, `Recommendation`.
 

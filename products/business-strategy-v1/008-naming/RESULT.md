@@ -21,14 +21,14 @@ The naming verdict inverts the intake picture: **Atomaro is killed** — it is a
 ## Deliverables
 | File | Purpose |
 | :---- | :---- |
-| `products/business-strategy-v1/naming/naming-verdict.md` | 7-point evidence per candidate, Atomos kill record, Atomico assessment, verdict + recommendation for G1 |
+| `products/business-strategy-v1/naming/naming-verdict.md` | 7-point evidence per candidate, [изъято — GATE-032] kill record, [изъято — GATE-032] assessment, verdict + recommendation for G1 |
 
 ## DoD Self-Check
 | Criterion | Result | Evidence |
 | :---- | :---- | :---- |
 | H1 file exists | met | `ls` |
 | H2 7 evidence rows × 2 candidates | met | grep row count: 7 + 7 |
-| H3 Atomico assessed | met | `grep -c Atomico` → 4, incl. dedicated section |
+| H3 [изъято — GATE-032] assessed | met | `grep -c [изъято — GATE-032]` → 4, incl. dedicated section |
 | H4 every row sourced or marked | met | grep: 0 unmarked rows |
 | H5 Verdict section + one recommendation | met | grep: both present |
 | S1 no invented facts | self-reviewed | web claims carry URLs + fetch date; register states declared "not performed", not guessed |

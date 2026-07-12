@@ -20,7 +20,7 @@ recursion_allowance: 0
 | Atom ID | ATOM-014 |
 | Parent product | RPF Business Strategy v1 |
 | Executor role | venture-strategist (roles/venture-strategist.md — F2 satisfied) |
-| Input product(s) | ATOM-006 INPUT §3.8 (register mandate + known backfills: equity-for-tooling, bank GTM before pilot, robotics until sim-gate, Atomos name, broad TLD shopping); `naming/naming-verdict.md` + GATE-009 (Atomaro/Atomos kills); `segments/segment-map.md` (parked segments); `channels/channel-comparison.md` (4 rejected variants) |
+| Input product(s) | ATOM-006 INPUT §3.8 (register mandate + known backfills: equity-for-tooling, bank GTM before pilot, robotics until sim-gate, [изъято — GATE-032] name, broad TLD shopping); `naming/naming-verdict.md` + GATE-009 (Atomaro/[изъято — GATE-032] kills); `segments/segment-map.md` (parked segments); `channels/channel-comparison.md` (4 rejected variants) |
 | Consumer(s) | ATOM-015 (referenced); quarterly re-validation gate (revisit triggers) |
 | Maturity target | draft |
 | Gates | none |
@@ -33,7 +33,7 @@ recursion_allowance: 0
 Consolidate every rejection this strategy has produced or inherited into one first-class register: one line why, one revisit trigger each — so future sessions and the quarterly gate stop re-litigating closed questions.
 
 ## 3. Context — Decisions Already Made (formalize, do not reopen)
-§3.8: NOT-DOING.md is a first-class deliverable; every rejected segment/channel/initiative gets: one line why + revisit-when trigger. Known backfills named in §3.8 verbatim (five above). GATE-009 added Atomaro + Atomos with revisit triggers. ATOM-009 parked unscored adjacent segments. ATOM-010 handed four channel variants.
+§3.8: NOT-DOING.md is a first-class deliverable; every rejected segment/channel/initiative gets: one line why + revisit-when trigger. Known backfills named in §3.8 verbatim (five above). GATE-009 added Atomaro + [изъято — GATE-032] with revisit triggers. ATOM-009 parked unscored adjacent segments. ATOM-010 handed four channel variants.
 
 ## 4. Deliverable
 `products/business-strategy-v1/NOT-DOING.md` — table register: entry, why (one line), revisit trigger, source (decision/atom path). Parent H3 requires ≥5 entries; expected ≈ 12.

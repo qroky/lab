@@ -30,21 +30,21 @@ recursion_allowance: 0
 | Recursion-depth allowance | 0 |
 
 ## 2. Job To Be Done
-Deliver a naming verdict the human can sign at G1: for each live candidate (front-runner **Atomaro**, reserve **Qroky**), evidence against all 7 checklist points of §3.3, applied in order of cheapness; the dead candidate (Atomos) recorded with its kill reason; one recommendation with the risk picture.
+Deliver a naming verdict the human can sign at G1: for each live candidate (front-runner **Atomaro**, reserve **Qroky**), evidence against all 7 checklist points of §3.3, applied in order of cheapness; the dead candidate ([изъято — GATE-032]) recorded with its kill reason; one recommendation with the risk picture.
 
 **Consumers:** the human (go/no-go), STRATEGY.md Name section, NOT-DOING register (dead candidates).
 
 ## 3. Context — Decisions Already Made (formalize, do not reopen)
-Parent INPUT §3.3 verbatim: Atomaro front-runner (clean live-company field; atomaro.dev/.app owned; GitHub org atomaro-hq owned; atomaro.com squatted by dormant holder expiring 2026-11-10, backorder planned). Qroky reserve (fully available incl. qroky.com; zero semantics). Atomos dead (live London company "Atomos AI" + video-hardware trademark holder). The 7-point checklist and its order are accepted method — do not redesign it. Honesty rule §3.9: every claim sourced (with date) or explicitly marked as assumption; the trademark screen depends on live sources — where a register cannot be queried, say so; do not simulate a search result.
+Parent INPUT §3.3 verbatim: Atomaro front-runner (clean live-company field; atomaro.dev/.app owned; GitHub org atomaro-hq owned; atomaro.com squatted by dormant holder expiring 2026-11-10, backorder planned). Qroky reserve (fully available incl. qroky.com; zero semantics). [изъято — GATE-032] dead (live London company "[изъято — GATE-032]" + video-hardware trademark holder). The 7-point checklist and its order are accepted method — do not redesign it. Honesty rule §3.9: every claim sourced (with date) or explicitly marked as assumption; the trademark screen depends on live sources — where a register cannot be queried, say so; do not simulate a search result.
 
 ## 4. Deliverable
-`products/business-strategy-v1/naming/naming-verdict.md` — per-candidate evidence table (7 checklist points × {Atomaro, Qroky}), Atomos kill record, Atomico phonetic-neighbor confusion assessment, verdict + recommendation for the human gate.
+`products/business-strategy-v1/naming/naming-verdict.md` — per-candidate evidence table (7 checklist points × {Atomaro, Qroky}), [изъято — GATE-032] kill record, [изъято — GATE-032] phonetic-neighbor confusion assessment, verdict + recommendation for the human gate.
 
 ## 5. Definition of Done
 **Hard criteria:**
 - H1. File exists at the path above. Check: `ls`.
 - H2. For each of Atomaro and Qroky: all 7 checklist points present as numbered evidence rows. Check: grep for point numbering per candidate section (2 × 7 rows).
-- H3. Atomico confusion risk explicitly assessed (the flag §3.3 requires). Check: `grep -c Atomico` ≥ 1 in an assessment sentence.
+- H3. [изъято — GATE-032] confusion risk explicitly assessed (the flag §3.3 requires). Check: `grep -c [изъято — GATE-032]` ≥ 1 in an assessment sentence.
 - H4. Every evidence row carries a source (input §3.3, URL, or repo path, with date) or the explicit marker `assumption` / `not verifiable`. Check: grep each row for `(source:` or `assumption` or `not verifiable`.
 - H5. A Verdict section with per-candidate go/hold/kill and exactly one recommendation. Check: grep `## Verdict`, `Recommendation`.
 

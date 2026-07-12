@@ -52,7 +52,7 @@ asserts «none beyond 9» and passed in my run).
   newline artifacts** — see F2 (one blank line lost in the v1 digest when a pending
   gate exists; an invisible EOF newline in /status).
 - **H2 merged digest:** scenario 19 (my run): ONE sendMessage, per-project sections,
-  empty project = one line, GATE-B2 confined to bankco's section (0 in miapos),
+  empty project = one line, GATE-B2 confined to bankco's section (0 in projecta),
   numeric spend total, signaled events as status lines. Orphan origins: my symlink and
   raw-`//` plants both surfaced in primary — a pending decision cannot vanish.
 - **H4 re-ask:** scenario 20 (my run): exactly ONE mechanical re-ask with project
