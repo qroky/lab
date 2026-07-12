@@ -38,7 +38,7 @@ locales and READMEs.
 
 ## Skepticism points 2–6
 
-- **SKILL.md hygiene:** grep for `ghcernei|/Users/|Work/rpf` over the vendored file —
+- **SKILL.md hygiene:** grep for `<local-username>|/Users/|Work/rpf` over the vendored file —
   clean. Full diff vs the source of truth: every hunk is de-localization only
   ([приватный слой — ревизия владельца, GATE-032] → generalized reference, `~/Work/rpf/framework/` → "the pinned
   framework/ folder", provenance-table paths → repo names) plus ONE added provenance

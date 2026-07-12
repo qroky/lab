@@ -37,6 +37,23 @@ that produced the product lives here and never reaches a user's machine.
 - Nothing here is retouched for appearance. If a record looks rough, that
   is what governed work looks like from inside.
 
+## Приватный слой (owner's revision, GATE-032)
+
+One deliberate exception to "never edited after": before publication the
+owner reviewed the journal and moved a private commercial layer out of this
+copy (`decisions/GATE-032`). Removed or anonymized: the accelerator
+partner's name (now «партнёр-акселератор (MD)» / "accelerator partner
+(MD)"), the pricing model with numbers, deal terms and red lines
+(`business-strategy-v1`: STRATEGY, pricing/, channel-comparison,
+segment-map, pilot-design, NOT-DOING — tombstones remain in place), the
+founder's bank-network notes, landing-v0 drafts (personal email / legal
+entity), third-party names from the trademark screen, dollar equivalents
+of token spend (token numbers themselves are public by design), machine
+paths, and references to the owner's neighbouring private projects. Every
+removed passage is marked in place with
+«[приватный слой — ревизия владельца, GATE-032]» — nothing is silently
+missing.
+
 History note: framework's own git history before the separation still
 contains this journal (published tags v0.1.2 … v0.3.2 stand on it and are
 never rewritten); from the separation commit onward, framework HEAD is the
