@@ -466,7 +466,7 @@ render_team_summary_local() {
 # GATE-018 answer, verbatim (E8-1): "Opt-in в consent (Recommended)". Wired
 # here exactly as SYNTHESIS.md's E8 block recommended: TEAM summary stays
 # local-only by default; a founder may separately opt in (one consent item,
-# "одну простую фразу о построенном можно показывать Startup Moldova") to
+# "одну простую фразу о построенном можно показывать партнёр-акселератор (MD)") to
 # let ONE plain content sentence cross the perimeter. This function:
 #   - NEVER opens INPUT.md (register #8's own text: "no INPUT.md reads in
 #     the perimeter-crossing path") — no fan-decision line, ever, here.

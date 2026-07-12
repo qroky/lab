@@ -16,7 +16,7 @@ cost:
 # RESULT — ATOM-015
 
 ## Summary
-STRATEGY.md assembled: 831 words excluding headings (55% of the H2 budget), six required sections, 11 distinct repo-path citations, opening with positioning and the three commercial conversations the document enables (Startup Moldova kickoff, first bank, follow-on accelerator/fund). Pure assembly — every number traces to an input product; no new analysis introduced (S3 designed-in). Awaiting independent blind verify (slim package per GATE-008) and human G2.
+STRATEGY.md assembled: 831 words excluding headings (55% of the H2 budget), six required sections, 11 distinct repo-path citations, opening with positioning and the three commercial conversations the document enables (accelerator partner (MD) kickoff, first bank, follow-on accelerator/fund). Pure assembly — every number traces to an input product; no new analysis introduced (S3 designed-in). Awaiting independent blind verify (slim package per GATE-008) and human G2.
 
 ## Deliverables
 | File | Purpose |

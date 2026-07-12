@@ -56,7 +56,7 @@ Two minor findings below.
   no investment guarantees, no exclusivity, no hiring/replacing the team);
   open-script clause present («открыт — вы можете прочитать построчно» /
   «deschis»); the GATE-018 opt-in item (separate, default-unchecked, one plain
-  phrase to Startup Moldova) present in both.
+  phrase to accelerator partner (MD)) present in both.
 - 072-VERIFY H3 verified full substance identity vs the pilot-design master;
   078-VERIFY H4 re-verified the E8 wiring quotes GATE-018 semantics verbatim.
 

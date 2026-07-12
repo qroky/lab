@@ -130,7 +130,7 @@ WHAT NEVER LEAVES YOUR MACHINE (the five items below and nothing else):
 - This breaks the feedback loop: "Is $8/M too cheap, or is founder bloat? We have no work-unit visibility."
 
 **The chain:**
-- ATOM-007 INPUT §3.3 says: "Startup Moldova must see [cost lines] from day one" for re-anchoring at pilot exit.
+- ATOM-007 INPUT §3.3 says: "accelerator partner (MD) must see [cost lines] from day one" for re-anchoring at pilot exit.
 - But re-anchoring requires: cost ÷ (output units + quality metrics).
 - Telemetry provides cost; it does not provide output units.
 - Result: pricing re-anchor at pilot exit will be blind to unit economics.
@@ -139,7 +139,7 @@ WHAT NEVER LEAVES YOUR MACHINE (the five items below and nothing else):
 - Preserve the first sentence of each RESULT.md Summary in the telemetry push (e.g., "Constitutional amendment: added role-tier discipline").
 - Or: add a one-line `work_unit` field to RESULT.md's cost block template (e.g., `work_unit: 1 role spec, 60 lines`); the push script reads and copies only this field.
 - Or: at pilot exit, run a post-hoc analysis pass: correlate the cost data (already pushed) with the Summary field (preserved in the repo). This is manual but honest.
-- Without this, Startup Moldova sees "900k tokens averaged $1.43/atom" but cannot answer "should we price at $0.99/atom or $3.00/atom?"
+- Without this, accelerator partner (MD) sees "900k tokens averaged $1.43/atom" but cannot answer "should we price at $0.99/atom or $3.00/atom?"
 
 ---
 

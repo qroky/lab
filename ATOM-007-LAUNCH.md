@@ -53,7 +53,7 @@ recursion_allowance: 2
 | Parent product | Qroky venture |
 | Executor role | venture-strategist (exists — chair of the fan per SY3); lens roles created on demand per F2 |
 | Input product(s) | This INPUT; `products/business-strategy-v1/pilot/pilot-design.md` (consent master text, success criteria, telemetry scope); `products/business-strategy-v1/STRATEGY.md`; `decisions/INFO-001` (exchange + red lines), `INFO-005` (subtree accounting), `INFO-006` (this atom's accepted decisions); `knowledge/precedent/` (all); `runtime/claude/README.md` |
-| Consumer(s) | Pilot founders + Startup Moldova (setup, consent, telemetry — perimeter); the pilot operator (Flow Support tooling, intake protocol); pricing re-anchor at pilot exit (cost data); SYNTHESIS-PROTOCOL validation record |
+| Consumer(s) | Pilot founders + accelerator partner (MD) (setup, consent, telemetry — perimeter); the pilot operator (Flow Support tooling, intake protocol); pricing re-anchor at pilot exit (cost data); SYNTHESIS-PROTOCOL validation record |
 | Maturity target | reviewed |
 | Gates | **G1 — decomposition plan + perspective map to the human (go / no-go / pivot) BEFORE any execution** (F4 a+b; INFO-006: «План — мне на го до исполнения»); **G2 — before founder-facing artifacts are final** (perimeter, F4 c). Briefs in Russian, plain language (HP2 + GATE-011 lesson). Trigger gates implicit |
 | Instantiation | session |
@@ -96,7 +96,7 @@ From day one, every founder-facing reply and the telemetry stream carry the
 summary line: **«⚙ N агентов · M ролей · глубина D · возвратов verify R · $X»**,
 sourced from the INFO-005/D7 transitive subtree accounting (total_descendants,
 max_depth_reached, subtree_cost with execute/verify/role-creation/synthesis
-breakdown). The cost line is a **selling artifact** — Startup Moldova must see it
+breakdown). The cost line is a **selling artifact** — accelerator partner (MD) must see it
 from day one. Deliverable: the line's spec + its generation wired into the
 telemetry script and the founder-reply convention.
 

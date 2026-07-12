@@ -116,18 +116,18 @@ telemetria, sau șterge/creează tu însuți fișierul indicat de echipa care
 ți-a dat acest kit — oricare variantă funcționează identic și oprește
 imediat orice trimitere.
 
-## O alegere separată: poți lăsa Startup Moldova să vadă o propoziție despre ce ai construit
+## O alegere separată: poți lăsa accelerator partner (MD) să vadă o propoziție despre ce ai construit
 
 Pe lângă înțelegerea de mai sus, există **un punct separat, tot opțional**:
 în mod implicit, rezumatul despre echipa care a lucrat pentru tine rămâne
 strict pe calculatorul tău — nimeni din afară nu îl vede. Dacă bifezi acest
 punct separat, ești de acord ca **o singură propoziție simplă**, care spune
 ce s-a construit (nu cum, nu codul, nu detaliile), să poată fi arătată către
-Startup Moldova. Această alegere este a ta, independentă de înțelegerea
+accelerator partner (MD). Această alegere este a ta, independentă de înțelegerea
 principală de mai sus, și o poți retrage oricând, separat.
 
 ☐ Da, sunt de acord ca o propoziție simplă despre ce s-a construit să fie
-   arătată către Startup Moldova. *(neselectat implicit — dacă lași
+   arătată către accelerator partner (MD). *(neselectat implicit — dacă lași
    nebifat, rezumatul rămâne doar pe calculatorul tău)*
 
 ## Dacă refuzi consimțământul pentru telemetrie

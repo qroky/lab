@@ -47,7 +47,7 @@ rendered from again, same as every other paragraph.
   of any 5 consecutive business days, this **automatically** triggers a
   pause and a renegotiation — either the SLA relaxes (e.g. to 2 business
   days) or the cohort reduces to 1 founder. This is not a silent failure
-  path; both the founder(s) and Startup Moldova are notified when the
+  path; both the founder(s) and accelerator partner (MD) are notified when the
   breach protocol fires.
 - Every intervention and its minutes logged — the human-hours ledger is a
   first-class pilot output (feeds Rung-2 pricing).
@@ -79,7 +79,7 @@ did not exist yet when this section was written).
 ```
 **TEAM-summary visibility across the perimeter (GATE-018, E8-1):** the
 work-showcase's TEAM summary (`showcase/render.sh`) is **local-only by
-default** — it never crosses the perimeter to Startup Moldova. A founder
+default** — it never crosses the perimeter to accelerator partner (MD). A founder
 may separately opt in, via one explicit consent item independent of the
 telemetry consent above, to let **one plain sentence** describing what was
 built cross the perimeter. Absent that separate opt-in, only role names and

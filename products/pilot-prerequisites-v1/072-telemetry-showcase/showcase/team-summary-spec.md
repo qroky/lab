@@ -14,7 +14,7 @@ must keep.
 GATE-018 answered E8-1 verbatim: **"Opt-in в consent (Recommended)"** — the
 TEAM summary is local-only by default; a founder may separately opt in, via
 one explicit consent item ("одну простую фразу о построенном можно
-показывать Startup Moldova"), to let one plain content sentence cross the
+показывать партнёр-акселератор (MD)"), to let one plain content sentence cross the
 perimeter. `render.sh` implements this as two distinct render functions,
 not a single output with a redaction pass — the safer design, since a
 missing redaction step fails open while a missing opt-in file fails closed:

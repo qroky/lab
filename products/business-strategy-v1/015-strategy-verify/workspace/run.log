@@ -19,7 +19,7 @@ H3: for s in Segments Channel Pricing Pilot Name Re-validation; do grep -c "^## 
 
 H4: grep -oE '`[a-zA-Z0-9_/.-]+\.(md|yaml)`' STRATEGY.md | sort -u
     -> 12 distinct: NOT-DOING.md, channels/channel-comparison.md,
-       decisions/GATE-008-atom-006-g1-direction.md, decisions/INFO-001-pilot-terms-startup-moldova.md,
+       decisions/GATE-008-atom-006-g1-direction.md, decisions/INFO-001-pilot-terms-accelerator-partner.md,
        knowledge/precedent/verify-envelope-calibration.md, metrics/metrics-system.md,
        naming/naming-verdict.md, pilot/pilot-design.md, pricing/pricing-ladder.md,
        runtime/claude/README.md, segments/segment-map.md, status.yaml
@@ -42,16 +42,16 @@ Segments -> segments/segment-map.md:
 Channel -> channels/channel-comparison.md:
   grep -nE '1,000|1,500|cohort|kill|6\+|\$0|capacity'
   -> L16 acquisition ~$0, paid in kind (case study + 2–3 intros per INFO-001);
-     L18 cohort license $1,000–1,500/cohort-month ~10 founders (assumption);
+[приватный слой — ревизия владельца, GATE-032]
      L47 accelerator -> paid bank pilot -> second bank; open core passive $0;
      L49 kill trigger 6+ founders / capacity-not-demand / no second channel  [TRACED]
 
 Pricing -> pricing/pricing-ladder.md + knowledge/precedent/verify-envelope-calibration.md:
   grep -> L14–15,21 real counters 105,273–139,394 tokens/verify (matches "105–139k");
      calib L20 139 394 real counter; L41 ~1.0–1.6M tokens/founder-month;
-     L44 ~$15–32/month raw compute; L48 WTP $50–200 (assumption) + ×3 sensitivity +
+[приватный слой — ревизия владельца, GATE-032]
      binding COGS = human attention; L54 Rung 1 free open core; L61 8–15 h/founder-month (assumption);
-     L62 $150 anchor (assumption); L67 managed 3–5× (assumption)  [TRACED]
+[приватный слой — ревизия владельца, GATE-032]
 
 Pilot -> pilot/pilot-design.md + decisions/INFO-001:
   grep -> L18–21 red lines: no turnkey code / no investment guarantees / no exclusivity / no team hiring;

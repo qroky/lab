@@ -121,5 +121,5 @@ exist (I located both), so this is friction, not a blocker.
 - **M4 (minor, S1)** — register mix in outreach RU V1/V2: ты-opener
   «Смотри…» against вы-forms «Когда вам удобно», «Пишите сюда» (same in RO
   V1: «te ajută» vs «Scrieți-mi / vă e comod»). Defensible if «вы» = the
-  Startup Moldova team as an org; on a 1:1 messenger text it reads slightly
+  accelerator partner (MD) team as an org; on a 1:1 messenger text it reads slightly
   off. CEO to eyeball when filling `[имя]`.

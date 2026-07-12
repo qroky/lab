@@ -38,7 +38,7 @@ and E8 block in Russian). Four consolidated questions per INPUT §7.
 
 E8-1: TEAM summary is local-only by default; a separate explicit consent item
 lets each founder allow «one plain sentence about what was built» to cross the
-perimeter to Startup Moldova. E8-2: pilot runs at 2 founders with a written
+perimeter to accelerator partner (MD). E8-2: pilot runs at 2 founders with a written
 primary-duty commitment (8 weeks), an SLA-breach protocol (2 breaches in 5
 consecutive days → automatic pause and renegotiation) and audit automation;
 the owner-capacity lens's NO is thereby answered — prerequisites become

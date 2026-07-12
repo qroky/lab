@@ -35,7 +35,7 @@ round: 1; returns_used: 0 (VP15).
 
 ## 3. Product path(s) — the blind package (nothing else may be read, VP2)
 - `products/business-strategy-v1/STRATEGY.md` (the product)
-- Spot-check targets (read PARTIALLY, only to trace claims): `products/business-strategy-v1/naming/naming-verdict.md`, `products/business-strategy-v1/segments/segment-map.md`, `products/business-strategy-v1/channels/channel-comparison.md`, `products/business-strategy-v1/pricing/pricing-ladder.md`, `products/business-strategy-v1/pilot/pilot-design.md`, `products/business-strategy-v1/metrics/metrics-system.md`, `products/business-strategy-v1/NOT-DOING.md`, `decisions/GATE-008-atom-006-g1-direction.md`, `decisions/INFO-001-pilot-terms-startup-moldova.md`
+- Spot-check targets (read PARTIALLY, only to trace claims): `products/business-strategy-v1/naming/naming-verdict.md`, `products/business-strategy-v1/segments/segment-map.md`, `products/business-strategy-v1/channels/channel-comparison.md`, `products/business-strategy-v1/pricing/pricing-ladder.md`, `products/business-strategy-v1/pilot/pilot-design.md`, `products/business-strategy-v1/metrics/metrics-system.md`, `products/business-strategy-v1/NOT-DOING.md`, `decisions/GATE-008-atom-006-g1-direction.md`, `decisions/INFO-001-pilot-terms-accelerator-partner.md`
 - `products/business-strategy-v1/015-strategy/RESULT.md`, `products/business-strategy-v1/015-strategy/STATUS.md` (self-check claims — claims, not evidence, digest rule 2)
 
 ## 4. Reference standards — EMBEDDED DIGEST (replaces framework/ reads per decisions/GATE-008; do NOT read framework/ files)

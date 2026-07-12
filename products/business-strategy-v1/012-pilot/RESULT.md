@@ -16,12 +16,12 @@ cost:
 # RESULT — ATOM-012
 
 ## Summary
-Executable pilot design for Flow Support v0 with Startup Moldova: framing (observation as a service, self-hosted per §3.2/§3.4), INFO-001 exchange + four red lines embedded in the founder-facing script, six measurable success criteria each mapped to a named strategy assumption (viability floor, token model, owner-minutes, capacity, WTP, bank bridge), the full telemetry consent text (closed operational-file scope, open script, explicit revocable consent, fixed deletion date), daily cadence + one-business-day SLA, 12-week timeline, and exit conditions that re-anchor pricing and trigger or clear the channel kill trigger. ATOM-007 referenced as prerequisite owner throughout; nothing prerequisite-shaped built.
+Executable pilot design for Flow Support v0 with accelerator partner (MD): framing (observation as a service, self-hosted per §3.2/§3.4), INFO-001 exchange + four red lines embedded in the founder-facing script, six measurable success criteria each mapped to a named strategy assumption (viability floor, token model, owner-minutes, capacity, WTP, bank bridge), the full telemetry consent text (closed operational-file scope, open script, explicit revocable consent, fixed deletion date), daily cadence + one-business-day SLA, 12-week timeline, and exit conditions that re-anchor pricing and trigger or clear the channel kill trigger. ATOM-007 referenced as prerequisite owner throughout; nothing prerequisite-shaped built.
 
 ## Deliverables
 | File | Purpose |
 | :---- | :---- |
-| `products/business-strategy-v1/pilot/pilot-design.md` | Pilot section input to ATOM-015; instrument definitions for ATOM-013; terms record for the Startup Moldova conversation |
+| `products/business-strategy-v1/pilot/pilot-design.md` | Pilot section input to ATOM-015; instrument definitions for ATOM-013; terms record for the accelerator partner (MD) conversation |
 
 ## DoD Self-Check
 | Criterion | Result | Evidence |
@@ -43,7 +43,7 @@ Executable pilot design for Flow Support v0 with Startup Moldova: framing (obser
 4. Exit asymmetry declared: technical failure + delivered intros still yields the bank bridge; partner-relationship failure is E3 regardless.
 
 ## Deviations & Known Limitations
-Consent text is the English master; RO/RU founder-facing versions are an ATOM-007 setup deliverable (HP2 canon respected). Startup Moldova's cohort calendar is unknown — timeline is a template.
+Consent text is the English master; RO/RU founder-facing versions are an ATOM-007 setup deliverable (HP2 canon respected). accelerator partner (MD)'s cohort calendar is unknown — timeline is a template.
 
 ## Handoff
 Verification mode: self (draft) — this self-check is the delivery obligation; consumed by ATOM-013/015; human sees the consent text at G2.

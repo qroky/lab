@@ -36,12 +36,12 @@ no is not smoothed away below — it survives as condition 7 and gate E8-2.
 - security-telemetry: render.sh opens INPUT.md and republishes RESULT's `## Summary` first sentence — INPUT.md is the file push.sh's own header names as the canonical never-to-be-opened example; run.log confirms this was deliberate.
 - Checkable state: per 075 F5's own analysis, push.sh's whitelist matches five basenames only (`STATUS.md`, `RESULT.md`, `run.log`, `status.yaml`, `VERDICT.md`); the render outputs (`example-cost-line.txt`, `example-team-summary.md`) are not among them and are therefore not swept by any existing push path; `push_to_remote()` is a hard stub besides.
 - Classification test (SY6): what the code does is observable → fact.
-- Resolution (SY7): **reconciled — both partly right about different spots.** As shipped, no code path sends render output off the machine: there is no live leak today. But 075's finding stands as a specification gap: nothing marks the render outputs as local-only or perimeter-crossing, while the parent INPUT §3.3 declares the showcase a "selling artifact" Startup Moldova "must see from day one" — i.e. crossing is the *intent*. The fact half ends here; whether it *should* cross carries product substance is X2b. Settling evidence: push.sh whitelist mechanics as line-cited in 075 F3/F5. Logged R2.
+- Resolution (SY7): **reconciled — both partly right about different spots.** As shipped, no code path sends render output off the machine: there is no live leak today. But 075's finding stands as a specification gap: nothing marks the render outputs as local-only or perimeter-crossing, while the parent INPUT §3.3 declares the showcase a "selling artifact" accelerator partner (MD) "must see from day one" — i.e. crossing is the *intent*. The fact half ends here; whether it *should* cross carries product substance is X2b. Settling evidence: push.sh whitelist mechanics as line-cited in 075 F3/F5. Logged R2.
 
 ### X2b — value — Team legibility vs content silence outside the perimeter → **E8-1**
-- Lenses: security-telemetry (075 F4 + its SY9) vs the accepted INFO-007 design that founder-ux's optic defends (the TEAM summary exists so a founder and Startup Moldova see *what was built*, plainly).
+- Lenses: security-telemetry (075 F4 + its SY9) vs the accepted INFO-007 design that founder-ux's optic defends (the TEAM summary exists so a founder and accelerator partner (MD) see *what was built*, plainly).
 - security-telemetry: the `## Summary` first sentence is structurally the most business-descriptive line in the whole record; the fan-decision line is pulled from the one forbidden file. If these fields ever cross the perimeter, "мы никогда не получаем содержание вашего продукта" is false. Strip both, or wall the showcase off — and it names the cost: the TEAM summary stops answering the lesson it was built to answer.
-- Legibility position (INFO-007, parent INPUT §3.3): the invisible team blurs the value; the showcase is the pilot's selling artifact and must show contributions in plain language, to the founder and to Startup Moldova, from day one.
+- Legibility position (INFO-007, parent INPUT §3.3): the invisible team blurs the value; the showcase is the pilot's selling artifact and must show contributions in plain language, to the founder and to accelerator partner (MD), from day one.
 - Classification test (SY6): no observation settles this — both positions survive full shared information; it is a trade-off between disclosure value and content silence. → value. (Related: 074 F3 wants *more* work-unit context in telemetry for pricing re-anchor — the same boundary, pulled from a third direction; its resolution is downstream of this choice.)
 - Resolution: **not resolved here — routed to the human as E8-1** (see the E8 block). One recommendation attached there per SY8.
 
@@ -225,7 +225,7 @@ Minor-находки линз (073-M1..M3, 074-F5, 075-F5..F7, 076-F3..F6) в р
 
 ### E8-1 — Читаемость команды или молчание содержимого за периметром (X2b)
 
-**«TEAM-сводка показывает „что построено" Startup Moldova — ИЛИ содержимое
+**«TEAM-сводка показывает „что построено" партнёр-акселератор (MD) — ИЛИ содержимое
 продукта не покидает машину фаундера никогда. Обе стороны правы в своей
 оптике; выбор — ценностный.»**
 
@@ -240,7 +240,7 @@ Minor-находки линз (073-M1..M3, 074-F5, 075-F5..F7, 076-F3..F6) в р
 - **Рекомендация (одна, EP2):** сводка по умолчанию local-only; вариант с
   содержательной строкой пересекает периметр только по отдельному явному
   пункту согласия в CONSENT («одну простую фразу о том, что построено, можно
-  показывать Startup Moldova») — фаундер выбирает сам при подписании.
+  показывать партнёр-акселератор (MD)») — фаундер выбирает сам при подписании.
   **Цена:** +1 пункт в consent (трение при онбординге) и неоднородность
   сводок между фаундерами; продающая сила артефакта зависит от доли
   согласившихся.

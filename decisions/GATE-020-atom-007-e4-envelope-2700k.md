@@ -10,7 +10,7 @@
 
 ## Ответ (verbatim, DR5)
 
-> Поднять до ~2.7M ≈ $21.6 (Recommended)
+> Поднять до ~2.7M $[изъято — GATE-032] (Recommended)
 
 ## Interpretation
 Hard stop дерева ATOM-007 = **~2,700,000 tokens**. Серия конвертов:

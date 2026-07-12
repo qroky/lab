@@ -1,7 +1,7 @@
-# RESULT — ATOM-091 (kickoff sale kit — Startup Moldova)
+# RESULT — ATOM-091 (kickoff sale kit — accelerator partner (MD))
 
 **Executor:** sales-operator (ROLE-009, `roles/sales-operator.md`) · **Law
-consulted:** `decisions/INFO-001-pilot-terms-startup-moldova.md` (exchange +
+consulted:** `decisions/INFO-001-pilot-terms-accelerator-partner.md` (exchange +
 red lines, verbatim), `decisions/INFO-010-signature-subject-principle.md`
 (signature subject), `decisions/GATE-022-atom-090-sale-go.md` (task frame),
 `products/business-strategy-v1/STRATEGY.md`,
@@ -49,7 +49,7 @@ follow-up in signals, all 4 timed blocks in the agenda).
 
 ```
 $ grep -n "case study + 2–3 интро\|не обещаем продакшн-код" \
-    ../../decisions/INFO-001-pilot-terms-startup-moldova.md
+    ../../decisions/INFO-001-pilot-terms-accelerator-partner.md
 15:...Опции: (1) case study + 2–3 интро (банки/фонды/акселераторы); red lines:
 не обещаем продакшн-код «под ключ», гарантий инвестиций, эксклюзивности,
 найма команды...

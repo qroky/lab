@@ -16,7 +16,7 @@ cost:
 # RESULT — ATOM-010
 
 ## Summary
-Three accepted channel hypotheses compared on unit economics grounded in the pricing atom's numbers. Recommendation: **accelerator → paid bank pilot → second bank as leverage** — the §3.6 sequence hypothesis confirmed by economics: (a) costs ~$0 to enter, matches one operator's capacity (6–10 founders), and via INFO-001 terms is the acquisition mechanism for (b); (b) holds the margin ceiling but is pilot-gated; (c) is a zero-cost passive funnel. B2B2C rescue priced: $1,000–1,500/cohort-month for ~10 founders (payer flips founder→program if WTP fails). Bank pilot ticket explicitly conversation-gated, no number invented (§3.9). Kill trigger defined: capacity failure (<6 founders in attention budget) escalates before any second channel. Four rejected variants handed to NOT-DOING.
+[приватный слой — ревизия владельца, GATE-032]
 
 ## Deliverables
 | File | Purpose |

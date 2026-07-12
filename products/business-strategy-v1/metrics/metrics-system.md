@@ -21,7 +21,7 @@ Design rule: every metric is computable from **operational files inside the acce
 | Active cycles/founder-month + tokens/cycle | criterion 2 | founder-month token model re-anchor |
 | Owner-review minutes/day/founder | criterion 3 | Rung-2 margin viability |
 | Concurrent-founder capacity without SLA breach | criterion 4 | channel kill trigger (`channels/channel-comparison.md`) |
-| WTP signal at exit ($50–200/mo band — assumption under test) | criterion 5 | Rung-2 price anchor; B2B2C rescue trigger |
+[приватный слой — ревизия владельца, GATE-032]
 | Case study + intros delivered | criterion 6 | bank-channel opening (INFO-001 exchange) |
 
 ## 3. Cadence & review

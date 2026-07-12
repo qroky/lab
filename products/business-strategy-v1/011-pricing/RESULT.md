@@ -16,7 +16,7 @@ cost:
 # RESULT — ATOM-011
 
 ## Summary
-Three-rung ladder priced (self-hosted free → Flow Support $150/mo anchor → managed 3–5×), with founder-month token cost computed from five repo cost blocks (four real runtime counters + one BC4 estimate + the GATE-008 envelope): **~1.0–1.6M tokens/founder-month ≈ $15–32/mo raw compute** at current per-tier API prices (blended ~$10/MTok at a 40/50/10 L/M/S mix, 80/20 read/write). Strategic finding: token COGS is negligible against the $50–200 WTP band (>35% gross margin even at the floor with conservative tokens); **the binding COGS is human owner-review time (8–15 h/founder-month assumed)** — the pilot must measure minutes/day, not just tokens. Subscription-plan prices unsourced → excluded (§3.9).
+[приватный слой — ревизия владельца, GATE-032]
 
 ## Deliverables
 | File | Purpose |
@@ -37,7 +37,7 @@ Three-rung ladder priced (self-hosted free → Flow Support $150/mo anchor → m
 ## Decisions Made by Executor
 1. Vendor API prices used as the sole price basis; subscription plans excluded as unsourced (§3.9) — API prices are also the conservative bound.
 2. Input/output blend fixed at 80/20 by analogy to measured verify runs (~3.5× read); declared as assumption.
-3. Rung-2 anchor set at $150/mo (upper-middle of WTP band) rather than a range — a single anchor is testable at pilot exit; declared as assumption.
+[приватный слой — ревизия владельца, GATE-032]
 4. B2B2C per-cohort pricing explicitly deferred to ATOM-010 (channels) — it is channel economics, not ladder economics.
 
 ## Deviations & Known Limitations

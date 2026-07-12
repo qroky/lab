@@ -20,7 +20,7 @@ recursion_allowance: 0
 | Atom ID | ATOM-072 |
 | Executor role | pilot-toolsmith (`roles/pilot-toolsmith.md` — read it first, it is your identity) |
 | Input product(s) | This INPUT; `products/business-strategy-v1/pilot/pilot-design.md` (**consent master text EN + closed telemetry list — the law of this atom**); `decisions/INFO-005-d7-subtree-accounting-detail.md` (cost-line fields, verbatim); `decisions/INFO-006-atom-007-intake-decisions.md` (P3 showcase, P5 telemetry); `decisions/INFO-007-field-test-lesson-2-team-visibility.md` (TEAM summary, verbatim); `framework/ATOM-SPEC.md` §6.2 + O4.3 only (the RESULT fields the renders read); `products/framework-v1/status.yaml` + `products/framework-v1/018-constitutional-touch/RESULT.md` + `decisions/GATE-011-atom-016-acceptance.md` (real data for worked examples) |
-| Consumer(s) | 4 lens atoms; pilot founders + Startup Moldova (consent, cost line — perimeter); the pilot operator; pricing re-anchor |
+| Consumer(s) | 4 lens atoms; pilot founders + accelerator partner (MD) (consent, cost line — perimeter); the pilot operator; pricing re-anchor |
 | Verification mode | independent (slim VP20) |
 | Budget envelope | ~120k tokens (GATE-016) |
 

@@ -118,4 +118,4 @@ recorded **`reviewed` → `validated`** by this atom's closure.
   `078-fix-round/workspace/pilot-design-amendment-proposal.md`, applied by
   CEO's hand or a business-tree atom (GATE-021 item 4).
 - Contract $/M rate — written CEO input, still open (checkstop active).
-- Pilot start inputs: Startup Moldova kickoff (human panel row in TASKS.md).
+- Pilot start inputs: accelerator partner (MD) kickoff (human panel row in TASKS.md).

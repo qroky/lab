@@ -19,7 +19,7 @@ recursion_allowance: 0
 | Atom ID | ATOM-078 |
 | Executor role | pilot-toolsmith (`roles/pilot-toolsmith.md` — read first) |
 | Input product(s) | `products/pilot-prerequisites-v1/007-synth/SYNTHESIS.md` (**the fix-priority register — your work order**); `decisions/GATE-018-atom-007-synthesis-e8-gate.md` (E8-1/E8-2 answers, verbatim); `decisions/INFO-009-field-test-lesson-5-run-transparency.md` (run-narrative spec, verbatim); the ATOM-071/072 artifacts you will edit |
-| Consumer(s) | Founders + Startup Moldova (perimeter, via G2); ATOM-077; the parent closure (narrative render) |
+| Consumer(s) | Founders + accelerator partner (MD) (perimeter, via G2); ATOM-077; the parent closure (narrative render) |
 | Verification mode | independent — slim re-verify after delivery |
 | Budget envelope | ~170k tokens |
 
@@ -48,7 +48,7 @@ labeled «вариант A / вариант B — выбор CEO на G2» — d
   folder to open the terminal in.
 - E8-1 wiring (GATE-018): TEAM summary local-only by default; separate
   explicit consent item «одну простую фразу о построенном можно показывать
-  Startup Moldova» (RO/RU); render honors the flag (content line only when
+  accelerator partner (MD)» (RO/RU); render honors the flag (content line only when
   opted in); no INPUT.md reads in the perimeter-crossing path.
 - E8-2 wiring (GATE-018): primary-duty commitment line + SLA-breach protocol
   (2 of 5 consecutive days → automatic pause + renegotiation) into consent

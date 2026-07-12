@@ -15,7 +15,7 @@ date: 2026-07-05
 
 Read only the §3 files of `015-strategy-verify/INPUT.md`:
 - `products/business-strategy-v1/STRATEGY.md` (the product, full read)
-- Spot-check targets, partial reads (grep-traced only): `segments/segment-map.md`, `channels/channel-comparison.md`, `pricing/pricing-ladder.md`, `pilot/pilot-design.md`, `naming/naming-verdict.md`, `metrics/metrics-system.md`, `NOT-DOING.md` (all under `products/business-strategy-v1/`), `decisions/GATE-008-atom-006-g1-direction.md`, `decisions/INFO-001-pilot-terms-startup-moldova.md`, `knowledge/precedent/verify-envelope-calibration.md`
+- Spot-check targets, partial reads (grep-traced only): `segments/segment-map.md`, `channels/channel-comparison.md`, `pricing/pricing-ladder.md`, `pilot/pilot-design.md`, `naming/naming-verdict.md`, `metrics/metrics-system.md`, `NOT-DOING.md` (all under `products/business-strategy-v1/`), `decisions/GATE-008-atom-006-g1-direction.md`, `decisions/INFO-001-pilot-terms-accelerator-partner.md`, `knowledge/precedent/verify-envelope-calibration.md`
 - `015-strategy/RESULT.md`, `015-strategy/STATUS.md` (treated as claims, not evidence — digest rule 2)
 
 No framework/ files read (GATE-008 slim mandate). No web access used. Every hard check re-run from the repo root; full command log in `workspace/run.log`.
@@ -28,7 +28,7 @@ No framework/ files read (GATE-008 slim mandate). No web access used. Every hard
 | H2 ≤1500 words excl. headings | `grep -v '^#' products/business-strategy-v1/STRATEGY.md \| wc -w` | `831` | **pass** (831 ≤ 1500) |
 | H3 six named sections | `for s in Segments Channel Pricing Pilot Name Re-validation; do grep -c "^## $s" STRATEGY.md; done` | each of the six = 1 | **pass** |
 | H4 ≥6 distinct path citations, every section cites | `grep -oE '\`[a-zA-Z0-9_/.-]+\.(md\|yaml)\`' STRATEGY.md \| sort -u` | 12 distinct backticked citations (11 full repo paths + `status.yaml`); each of the six sections carries ≥1 path | **pass** |
-| H5 quantitative claims sourced or assumption-marked | grep spot-check (see run.log): 23/35, 25/35, 18/35 → segment-map totals; $1,000–1,500/cohort-month ~10 founders (marked assumption) → channel-comparison L18; $150 anchor + 3–5× (marked assumption) → pricing-ladder L62/L67; 105–139k → pricing-ladder L14–21 (105,273–139,394 real counters) + verify-envelope-calibration L20; 1.0–1.6M tokens & $15–32/mo → pricing-ladder L41/L44; $50–200 WTP (marked assumption) → pricing-ladder L48; 8–15 h (marked assumption) → pricing-ladder L61; ×3 sensitivity → pricing-ladder L48; ~12 weeks → pilot-design L63; 2–3 intros → INFO-001 L21; 14 entries → NOT-DOING rows 1–14 | all spot-checked claims sourced or explicitly marked `assumption` in the citing file | **pass** |
+[приватный слой — ревизия владельца, GATE-032]
 | H6 quarterly gate mechanism | `grep -n 'uarterly' STRATEGY.md` | L43: "**Quarterly re-validation gate:** a re-touch is a diff against this file plus a human gate" | **pass** |
 | H7 zero bare platform names | `grep -niE 'claude\|anthropic\|openai\|gpt\|gemini\|sonnet\|opus\|haiku\|fable\|llama\|mistral' STRATEGY.md` | single hit, L29, inside the literal path citation `runtime/claude/README.md` — excluded by criterion definition | **pass** |
 

@@ -1,6 +1,6 @@
 ---
 atom: ATOM-090
-product: подготовленная продажа пилота Startup Moldova (kickoff sale kit, готовый к действию рукой CEO)
+product: подготовленная продажа пилота партнёр-акселератор (MD) (kickoff sale kit, готовый к действию рукой CEO)
 parent: — (top-level business atom; G1 = GATE-022)
 role: orchestrator (launch session); executor role born by this task (ROLE-009 sales-operator)
 formulated_by: launch session, 2026-07-08
@@ -9,7 +9,7 @@ maturity_target: reviewed (G2 = CEO reads kit and acts)
 budget: ~450k (envelope per GATE-022; E4 only on breach)
 ---
 
-# ATOM-090 — Продажа пилота Startup Moldova (родитель)
+# ATOM-090 — Продажа пилота партнёр-акселератор (MD) (родитель)
 
 ## 1. Mission
 Строка №1 панели CEO. Условия сделки уже решены (INFO-001); задача — превратить

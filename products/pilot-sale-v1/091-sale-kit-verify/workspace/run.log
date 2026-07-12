@@ -4,7 +4,7 @@ Blind package honored. Files read (complete list):
 - kit/: outreach.md, kickoff-agenda.md, talk-script.md, signals.md (full)
 - 091-sale-kit/INPUT.md — §3–§4 only (located via `grep -n '^## '`, then sed 34,65p)
 - 091-sale-kit/RESULT.md — DoD self-check table only (sed 33,173p)
-- decisions/INFO-001-pilot-terms-startup-moldova.md (full — law)
+- decisions/INFO-001-pilot-terms-accelerator-partner.md (full — law)
 - decisions/INFO-010-signature-subject-principle.md (full — law)
 - ~/.claude/skills/style/style-profile.md (full — S1 reference)
 NOT read: target STATUS.md, workspace/, run.log, framework docs, STRATEGY.

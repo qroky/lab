@@ -71,7 +71,7 @@ one substring false positive («agregate», Romanian for "aggregate", contains
 ### H4 — E8 wiring quotes GATE-018 semantics exactly: PASS
 - **E8-1:** CONSENT.ro/ru carry a separate, independent, default-unchecked
   opt-in item — «одна простая фраза, говорящая о том, что было построено …
-  может быть показана Startup Moldova» — matching GATE-018's «Opt-in в
+  может быть показана партнёр-акселератор (MD)» — matching GATE-018's «Opt-in в
   consent» and the register's «одну простую фразу о построенном…» semantics
   exactly; team-summary-spec.md and render.sh quote the answer verbatim.
 - **E8-2:** CONSENT «Наше обязательство по доступности» / «Angajamentul

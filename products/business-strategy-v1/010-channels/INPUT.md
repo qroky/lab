@@ -20,7 +20,7 @@ recursion_allowance: 0
 | Atom ID | ATOM-010 |
 | Parent product | RPF Business Strategy v1 |
 | Executor role | venture-strategist (roles/venture-strategist.md — F2 satisfied) |
-| Input product(s) | ATOM-006 INPUT §3.6 (three channel hypotheses + sequence hypothesis), §3.9; `segments/segment-map.md` (G1-confirmed A→C→B); `pricing/pricing-ladder.md` (founder-month economics — resequencing dependency); `decisions/INFO-001-pilot-terms-startup-moldova.md` (pilot terms = channel-a entry + channel-b bridge) |
+| Input product(s) | ATOM-006 INPUT §3.6 (three channel hypotheses + sequence hypothesis), §3.9; `segments/segment-map.md` (G1-confirmed A→C→B); `pricing/pricing-ladder.md` (founder-month economics — resequencing dependency); `decisions/INFO-001-pilot-terms-accelerator-partner.md` (pilot terms = channel-a entry + channel-b bridge) |
 | Consumer(s) | ATOM-012 (pilot design), ATOM-014 (rejected options), ATOM-015 (Channel section) |
 | Maturity target | draft |
 | Gates | none (G2 covers final assembly) |
@@ -33,7 +33,7 @@ recursion_allowance: 0
 Compare the three accepted channel hypotheses with unit economics grounded in the pricing atom's founder-month numbers, produce exactly one recommendation consistent with the G1-confirmed segment sequence, price the B2B2C rescue option the segment map flagged, and hand rejected options to NOT-DOING.
 
 ## 3. Context — Decisions Already Made (formalize, do not reopen)
-§3.6 verbatim: (a) Accelerator B2B2C — cohort license + graduate discount; equity with founders frozen; possible success-fee with the program; first conversation open (Startup Moldova). (b) Bank as GTM partner — AFTER pilot proof; paid pilot only; co-branding mandatory; exclusivity short and expensive if at all; risk-acceptance journal is the liability answer for bank compliance. (c) Self-serve on open core — brand/funnel, slow. Sequence hypothesis: accelerator → paid bank pilot → second bank as leverage. Compare with unit economics; recommendation + rejected options into NOT-DOING.
+§3.6 verbatim: (a) Accelerator B2B2C — cohort license + graduate discount; equity with founders frozen; possible success-fee with the program; first conversation open (accelerator partner (MD)). (b) Bank as GTM partner — AFTER pilot proof; paid pilot only; co-branding mandatory; exclusivity short and expensive if at all; risk-acceptance journal is the liability answer for bank compliance. (c) Self-serve on open core — brand/funnel, slow. Sequence hypothesis: accelerator → paid bank pilot → second bank as leverage. Compare with unit economics; recommendation + rejected options into NOT-DOING.
 G1 (GATE-008): segment sequence A→C→B confirmed. INFO-001: pilot exchange = case study + 2–3 bank/fund intros — the bank intros are channel (b)'s entry mechanism. §3.9: bank-side numbers not derivable from repo data are marked assumptions or named as conversation-gated, not invented.
 
 ## 4. Deliverable

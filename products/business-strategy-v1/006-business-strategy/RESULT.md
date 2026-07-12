@@ -16,7 +16,7 @@ cost:
 # RESULT — ATOM-006 (parent, closure per L7)
 
 ## Summary
-The framework produced its own business strategy through its own cycle. STRATEGY.md (831 words, six sections, blind-verified accept round 1 with zero findings, human-accepted at GATE-010) assembles six sub-analyses: G1-confirmed segment sequence A→C→B; channel sequence accelerator → paid bank pilot → second bank with a priced B2B2C rescue and a capacity kill trigger; a pricing ladder whose founder-month economics ($15–32/mo tokens; human attention as binding COGS) are computed from this repository's real counters; an executable pilot design with consent text and six instrumented criteria; a four-metric measurement system; a 14-entry NOT-DOING register. Naming: Atomaro killed on evidence, Qroky go-conditional (two probes before public use).
+[приватный слой — ревизия владельца, GATE-032]
 
 ## M3 — Bootstrap condition of framework-v1: MET
 Per ATOM-006 INPUT §5 maturity clause: on acceptance, record that framework-v1's bootstrap condition is met. **This tree is the record.** The constitution (ATOM-SPEC, FEV-PROTOCOL, REPO-STRUCTURE, ORCHESTRATION + runtime binding) formulated, decomposed, executed, blind-verified, human-gated, and closed a strategy-grade product about itself, with real cost accounting, decision records for every human touch, and framework lessons fed back to precedent. The framework is bootstrapped: it demonstrably runs product cycles end-to-end, including the recursive case.

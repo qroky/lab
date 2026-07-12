@@ -23,7 +23,7 @@ the human supplied additional accepted decisions to embed in the INPUT §3.
 >
 > Intake начинается с ценностей и миссии, не с задач. Первый продукт onboarding-разговора — mission.md фаундера: ценности-ограничения («минимум ухода», «не отдам 30% equity»), миссия без метрик, периметр недопустимого. Цели и первые продукты-ветки выводятся из них. Фаундер видит разговор — не механику: DoD/атомы/verify работают внутри, не показываются и не объясняются.
 > Стартовые линзы веера 007 (карта перспектив получает вход, не изобретает): UX нетехнического фаундера / токен-экономика / безопасность+телеметрия / операционная ёмкость владельца (Flow Support).
-> Витрина работы — в каждый ответ фаундеру и в телеметрию с первого дня: итоговая строка вида «⚙ N агентов · M ролей · глубина D · возвратов verify R · $X» (данные из subtree-учёта INFO-005/D7). Строка себестоимости — продающий артефакт, Startup Moldova должна видеть её с первого дня.
+> Витрина работы — в каждый ответ фаундеру и в телеметрию с первого дня: итоговая строка вида «⚙ N агентов · M ролей · глубина D · возвратов verify R · $X» (данные из subtree-учёта INFO-005/D7). Строка себестоимости — продающий артефакт, партнёр-акселератор (MD) должна видеть её с первого дня.
 > Intake-атом дерева — последним по зависимостям: в его INPUT зарезервировать секцию «уроки полевого теста» — сейчас идёт живой сад-тест copilot-паттерна (нечёткая формулировка → сначала ожидаемый результат → проработка), вердикт CEO с находками в течение 1–2 дней; уже зафиксированная находка для intake: as-is инвентаризация обязательна для трансформационных задач (опись существующего + explicit preserve/change/remove до проектирования to-be).
 > Setup-минимум: от «фаундер сказал да» до первого атома ≤15 минут, ноль технических вопросов; телеметрия — whitelist операционных файлов в qroky/pilot-telemetry, скрипт открытый, отключаемо с датой.
 >
@@ -39,7 +39,7 @@ work inside and are neither shown nor explained. (P2) **Starting lenses** for th
 founder UX / token economics / security+telemetry / owner operational capacity
 (Flow Support). (P3) **Showcase cost line** in every founder-facing reply and in
 telemetry from day one: "⚙ N agents · M roles · depth D · verify returns R · $X",
-sourced from INFO-005/D7 subtree accounting — a selling artifact Startup Moldova
+sourced from INFO-005/D7 subtree accounting — a selling artifact accelerator partner (MD)
 must see from day one. (P4) The **intake atom is last** in dependency order; its
 INPUT reserves a "field-test lessons" section — a live garden-test of the copilot
 pattern (fuzzy request → expected result first → elaboration) is running, CEO
