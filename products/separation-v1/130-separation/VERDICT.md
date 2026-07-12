@@ -48,7 +48,7 @@ No surviving mutants. Scenarios 19/20/21 are falsifiable as claimed
   scenario 21 from three neutral folders and by mutation C for the machine trace.
 - **Git history (item 6):** tags v0.1.2…v0.3.2 all present and all ancestors of HEAD;
   delivery = one ordinary commit (f7ff1dd) on top; no rewrite, no force.
-- **Lab (item 7):** /Users/ghcernei/Work/qroky-lab @ **842446d**, **582 files**, **no git
+- **Lab (item 7):** ~/Work/qroky-lab @ **842446d**, **582 files**, **no git
   remote** (unpublished — as required). Composition = the factory exactly (475 products,
   78 decisions, 10 roles, 15 ATOM launch/INPUT, TASKS.md, RELEASE-v0.1.md, README,
   .gitignore); no distribution/runtime/framework dupes; README explains the two houses +
@@ -65,8 +65,8 @@ No surviving mutants. Scenarios 19/20/21 are falsifiable as claimed
    dirs ship to every instance: `docs/advisor/codex-review-2.md` (advisor review of the
    factory — factory artifact, not a universal doc) and `runtime/claude/heartbeat/`
    (the factory's own heartbeat tool; `heartbeat-prompt.md` hardcodes
-   `/Users/ghcernei/Work/rpf`; `runtime/claude/skill/qroky/SKILL.md:90` carries a
-   `FIN-010 (Finergy operations, _BUSOS)` provenance row). Mitigating: the executor
+   `~/Work/rpf`; `runtime/claude/skill/qroky/SKILL.md:90` carries a
+   `FIN-010 [приватный слой — ревизия владельца, GATE-032]` provenance row). Mitigating: the executor
    flagged the first two in RESULT; `heartbeat.log`/`out/` are untracked+gitignored and
    do NOT ship; the installer generates its own per-workdir heartbeat, so the shipped
    factory tool is dead weight, not misbehavior. My classification: content curation is

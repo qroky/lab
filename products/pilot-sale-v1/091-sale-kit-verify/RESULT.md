@@ -22,7 +22,7 @@ round required (returns allowed were 0 anyway).
 
 1. **M1** — demo paths don't resolve as written: `qroky-landing.html`
    (agenda:25) and `consent/CONSENT.ro.md` (agenda:27, signals:19). Assets
-   exist at `/Users/ghcernei/Work/qroky-landing.html` and
+   exist at `~/Work/qroky-landing.html` and
    `products/pilot-prerequisites-v1/072-telemetry-showcase/consent/`. Fix = real paths.
 2. **M2** — agenda:37–38 points to talk-script «раздел 2–3» for verbatim
    wording; red-lines block actually sits at talk-script end (line 71–72).

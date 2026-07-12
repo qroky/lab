@@ -28,7 +28,7 @@ Re-run every hard criterion yourself; judge soft criteria; write `VERDICT.md`
 1. All four files under `products/pilot-sale-v1/091-sale-kit/kit/`
 2. `products/pilot-sale-v1/091-sale-kit/INPUT.md` — §3 and §4 ONLY (the law)
 3. `products/pilot-sale-v1/091-sale-kit/RESULT.md` — DoD table ONLY
-4. **References (the law):** `decisions/INFO-001-pilot-terms-accelerator-partner.md`; `decisions/INFO-010-signature-subject-principle.md`; `/Users/ghcernei/.claude/skills/style/style-profile.md` (voice reference for S1)
+4. **References (the law):** `decisions/INFO-001-pilot-terms-accelerator-partner.md`; `decisions/INFO-010-signature-subject-principle.md`; `~/.claude/skills/style/style-profile.md` (voice reference for S1)
 Instruments: ls, wc, grep, diff.
 
 ## 3. Criteria (verbatim from target DoD)

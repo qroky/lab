@@ -70,7 +70,7 @@ revocable); no promise added or removed. Target's H3 table is accurate.
   no-fan sentence), verify returns (VERDICT.md frontmatter).
 
 ### H5 — examples produced by the render script from real repo data: PASS
-**Re-ran `render.sh /Users/ghcernei/Work/rpf ATOM-018` myself** with outputs
+**Re-ran `render.sh ~/Work/rpf ATOM-018` myself** with outputs
 into the /private/tmp sandbox, exit 0. `diff` against the committed
 example-cost-line.txt and example-team-summary.md: **byte-identical** both.
 Independently re-checked the arithmetic: 177,951 tokens ÷ 1M × $8.00 =

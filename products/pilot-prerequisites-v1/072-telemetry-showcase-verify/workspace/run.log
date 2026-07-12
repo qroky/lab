@@ -12,7 +12,7 @@
 2026-07-07 H2 whitelist compare — push.sh WHITELIST_FILENAMES (5 entries) literal match with pilot-design.md L42 closed list; deny-by-default confirmed in code
 2026-07-07 H3 checked both consent files myself — 4 red lines, deletion clause with [____] fill-in field (not prose), open-script clause present in RO and RU; substance matches EN master, no promise added/removed; target's H3 table accurate
 2026-07-07 H4 spec tables — cost-line-spec 5/5 elements → named fields; team-summary-spec 4/4 sections → named record fields
-2026-07-07 H5 RE-RAN render.sh /Users/ghcernei/Work/rpf ATOM-018 → sandbox outputs; exit 0; diff vs committed example-cost-line.txt and example-team-summary.md: byte-identical both; math re-checked: 177951 × $8.00/M = $1.42361 → ceiling $1.43 correct
+2026-07-07 H5 RE-RAN render.sh ~/Work/rpf ATOM-018 → sandbox outputs; exit 0; diff vs committed example-cost-line.txt and example-team-summary.md: byte-identical both; math re-checked: 177951 × $8.00/M = $1.42361 → ceiling $1.43 correct
 2026-07-07 S1-S3 judged — S1 PASS (no opaque passage), S2 PASS (blind spot named: single-atom example, honest state), S3 PASS (gloss named as F2)
 2026-07-07 FINDINGS 0 blocking, 3 minor: F1 m_roles=1 hardcoded (render.sh L88) vs spec's generic subtree count; F2 spec rule 2 "always states four-way breakdown" not implemented in render output; F3 «роль» singular hardcoded vs fixed format «M ролей» (wrong for M>1)
 2026-07-07 VERDICT accept, round 1, returns_used 0 — VERDICT.md written

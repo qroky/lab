@@ -10,7 +10,7 @@ executor_role: framework-architect
 # RESULT — ROLE-004: Pilot Toolsmith Role Spec
 
 ## Product Delivery
-**Path:** `/Users/ghcernei/Work/rpf/roles/pilot-toolsmith.md`
+**Path:** `~/Work/rpf/roles/pilot-toolsmith.md`
 
 **Format:** Markdown role specification (frontmatter + 6 sections per template)
 

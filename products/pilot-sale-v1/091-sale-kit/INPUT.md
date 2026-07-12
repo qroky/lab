@@ -28,8 +28,8 @@ recursion_allowance: 0
 6. `products/pilot-prerequisites-v1/072-telemetry-showcase/consent/CONSENT.ro.md` + `.ru.md` — подписанная CEO сделка-согласие (показывается на кикоффе)
 7. `products/pilot-prerequisites-v1/071-setup-kit/setup/QUICKSTART.ro.md` — приложение «после да»
 8. `roles/sales-operator.md` — твоя роль
-9. `/Users/ghcernei/.claude/skills/style/style-profile.md` — голос CEO (заходы писать ИМ)
-10. `/Users/ghcernei/Work/qroky-landing.html` — существует как ссылка-материал (не редактировать)
+9. `~/.claude/skills/style/style-profile.md` — голос CEO (заходы писать ИМ)
+10. `~/Work/qroky-landing.html` — существует как ссылка-материал (не редактировать)
 
 ## 3. Deliverables (все в `products/pilot-sale-v1/091-sale-kit/kit/`)
 1. `outreach.md` — заход к контакту партнёр-акселератор (MD): 2 варианта (короткий

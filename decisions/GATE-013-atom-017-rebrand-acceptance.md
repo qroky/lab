@@ -32,7 +32,7 @@ ATOM-018 (constitutional touch — next human gate there) and then ATOM-007 (G1)
 - ATOM-017 closes per L7/RB6; maturity `reviewed` conferred (M3).
 - Brand boundary B1–B5 (Qroky = brand; «Recursive Product Framework» =
   methodology name; history frozen) is now the repository's naming canon.
-- `Handover1.md` lives at `/Users/ghcernei/Work/rpf-Handover1.md`; returning it
+- `Handover1.md` lives at `~/Work/rpf-Handover1.md`; returning it
   to the repo root would require a `.gitignore` entry (RB4) to keep future
   H3-style checks clean.
 - ATOM-018 (constitutional touch) starts immediately per GATE-012 chain order.

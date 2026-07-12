@@ -6,7 +6,7 @@
 - Read 015-strategy/RESULT.md + STATUS.md (claims only, digest rule 2)
 - No framework/ reads (GATE-008 slim). No web access.
 
-## 1. Hard criteria re-run (all from repo root /Users/ghcernei/Work/rpf)
+## 1. Hard criteria re-run (all from repo root ~/Work/rpf)
 
 H1: ls -la products/business-strategy-v1/STRATEGY.md
     -> -rw-r--r-- 1 ghcernei staff 6259 Jul 5 20:00 products/business-strategy-v1/STRATEGY.md  [PASS]

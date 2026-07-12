@@ -17,7 +17,7 @@ Executor: pilot-toolsmith (warm). G1 = GATE-031. Mandate: /ATOM-130-LAUNCH.md.
 5. qroky.sh bootstrap (see justification C).
 6. docs/separation.md + root README rewrite (map without factory rows, lab
    link) + distribution/README ×3 (one-command entry recommended).
-7. Lab repo: /Users/ghcernei/Work/qroky-lab, verbatim copy, README, commit
+7. Lab repo: ~/Work/qroky-lab, verbatim copy, README, commit
    842446d. NOT pushed (see justification D).
 8. Harness: dry-run.sh — fake origin now carries junk + real manifest
    (every install in the harness is sparse and every old check re-proves

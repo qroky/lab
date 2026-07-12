@@ -1,7 +1,7 @@
 # RESULT — ROLE-007
 
 ## Product
-- **Path**: `/Users/ghcernei/Work/rpf/roles/security-telemetry-reviewer.md`
+- **Path**: `~/Work/rpf/roles/security-telemetry-reviewer.md`
 - **Type**: Role specification (markdown)
 - **Lines**: 41 (target: 30–50) ✓
 
@@ -19,7 +19,7 @@
 
 **H1 Check**:
 ```bash
-wc -l /Users/ghcernei/Work/rpf/roles/security-telemetry-reviewer.md
+wc -l ~/Work/rpf/roles/security-telemetry-reviewer.md
 # Output: 41 lines ✓
 ```
 

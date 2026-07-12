@@ -102,7 +102,7 @@ exist (I located both), so this is friction, not a blocker.
   kickoff-agenda.md:27 + signals.md:19 `consent/CONSENT.ro.md`: neither path
   resolves inside the repo (verified: no .html tracked or untracked in rpf;
   no `consent/` at root). Actual locations:
-  `/Users/ghcernei/Work/qroky-landing.html` and
+  `~/Work/qroky-landing.html` and
   `products/pilot-prerequisites-v1/072-telemetry-showcase/consent/CONSENT.ro.md`
   (`.ru.md` same dir). Target RESULT's S2 claim that these «already exist»
   is true of the artifacts but not of the paths as written. Fix: write real

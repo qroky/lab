@@ -35,9 +35,9 @@ trigger. v0.1.2 makes the closing promise true on the target machine.
    read-only). Hygiene pass only, protocol content untouched: author-machine
    paths generalized (`~/Work/rpf/framework/` → "the framework source (in a
    kit install, the pinned `framework/` folder at the top of your
-   workspace)"; `~/Work/_BUSOS...` examples → repo-record references without
+   workspace)"; [приватный слой — ревизия владельца, GATE-032] examples → repo-record references without
    paths); the provenance table kept with its INFO references (paths
-   generalized to `rpf`/`_BUSOS`), plus one new row for this vendoring;
+   generalized to `rpf`/[приватный слой — ревизия владельца, GATE-032]), plus one new row for this vendoring;
    `~/.claude/qroky/delegation.log` KEPT — it is part of the protocol.
 2. **install.sh `step_gesture`** — automatic (no question; the interview
    inventory stays EXACTLY 8), runs right after framework vendoring. Wires

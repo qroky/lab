@@ -67,8 +67,8 @@ $ ls qroky-landing.html consent/CONSENT.ro.md consent/CONSENT.ru.md   → all: N
 $ find . -name 'CONSENT*' -o -name '*landing*'
   → products/pilot-prerequisites-v1/072-telemetry-showcase/consent/CONSENT.{ro,ru}.md
 $ find . -name '*.html'; git ls-files | grep -i 'landing|html|qroky'  → no HTML in repo
-$ find /Users/ghcernei/Work -maxdepth 3 -iname 'qroky-landing*'
-  → /Users/ghcernei/Work/qroky-landing.html (+ qroky-landing-banks.html) — assets EXIST, paths in kit don't resolve → M1
+$ find ~/Work -maxdepth 3 -iname 'qroky-landing*'
+  → ~/Work/qroky-landing.html (+ qroky-landing-banks.html) — assets EXIST, paths in kit don't resolve → M1
 $ grep -n '^## |^### |Красные линии' kit/talk-script.md
   → red-lines verbatim block at line 71, after §4; agenda points to «раздел 2–3» → M2
 

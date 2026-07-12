@@ -28,9 +28,9 @@ finale's promise «Say: qroky start» is EMPTY on any machine but the author's:
 
 1. **Ship the skill in the repo.** Vendor the gesture protocol into the
    framework repo as `runtime/claude/skill/qroky/SKILL.md`. Source of
-   truth to copy from: `/Users/ghcernei/.claude/skills/qroky/SKILL.md`.
+   truth to copy from: `~/.claude/skills/qroky/SKILL.md`.
    HYGIENE PASS is mandatory: remove/generalize machine-local absolute
-   paths (`/Users/ghcernei/...`, `~/Work/rpf`), author-machine specifics
+   paths (`~/...`, `~/Work/rpf`), author-machine specifics
    (delegation.log path stays as `~/.claude/qroky/delegation.log` — it is
    part of the protocol), keep the provenance table (INFO references are
    repo-public records). The protocol content itself is the product — do
@@ -65,7 +65,7 @@ finale's promise «Say: qroky start» is EMPTY on any machine but the author's:
 
 Write: `distribution/**`, `runtime/claude/skill/**`,
 `products/distribution-kit-v1/103-gesture-fix/**` (workspace, transcripts,
-run.log). Read-only source: `/Users/ghcernei/.claude/skills/qroky/SKILL.md`.
+run.log). Read-only source: `~/.claude/skills/qroky/SKILL.md`.
 NO git. NO edits to the 101/102 folders except nothing — your records live
 in 103.
 

@@ -1,7 +1,7 @@
 # RESULT: ROLE-006 Token Economist
 
 ## Product
-- **Path**: `/Users/ghcernei/Work/rpf/roles/token-economist.md`
+- **Path**: `~/Work/rpf/roles/token-economist.md`
 - **Lines**: 41 (target: 30–50)
 - **Template**: venture-strategist.md section set (identity, capabilities, method defaults, escalation posture, provenance)
 

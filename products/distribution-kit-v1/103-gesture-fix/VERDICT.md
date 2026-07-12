@@ -11,7 +11,7 @@ Full harness re-run myself in an isolated copy (with `runtime/claude/skill/qroky
 staged as in the repo): **11/11 PASS**, matching the committed transcripts and
 SUMMARY. Line-level review of `step_gesture`, the trigger block, the vendored
 SKILL.md (full diff against the source of truth
-`/Users/ghcernei/.claude/skills/qroky/SKILL.md`), scenario 10's assertions, all three
+`~/.claude/skills/qroky/SKILL.md`), scenario 10's assertions, all three
 locales and READMEs.
 
 ## Does the fix actually fix the G2 finding? Yes.
@@ -40,7 +40,7 @@ locales and READMEs.
 
 - **SKILL.md hygiene:** grep for `ghcernei|/Users/|Work/rpf` over the vendored file —
   clean. Full diff vs the source of truth: every hunk is de-localization only
-  (`~/Work/_BUSOS` → generalized reference, `~/Work/rpf/framework/` → "the pinned
+  ([приватный слой — ревизия владельца, GATE-032] → generalized reference, `~/Work/rpf/framework/` → "the pinned
   framework/ folder", provenance-table paths → repo names) plus ONE added provenance
   row recording the vendoring itself. Protocol content (D/I/R rules, §§ structure)
   unchanged — mandate's "do not rewrite, only de-localize" honored.

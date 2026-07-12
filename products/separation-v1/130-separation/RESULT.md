@@ -20,15 +20,15 @@ runtime/claude/heartbeat/{heartbeat.log,out/} — внутри manifest-ката
 ## Путь публикации lab (DoD 3) — отдельная строка для координатора
 
 Выбран путь **«локально bare-ready, пушит координатор»**:
-`/Users/ghcernei/Work/qroky-lab` — git-репо, initial commit `842446d`,
+`~/Work/qroky-lab` — git-репо, initial commit `842446d`,
 582 файла (products/ 580 factory-файлов + README + .gitignore), содержимое
 скопировано VERBATIM (constraint 6 — decisions не редактированы; ревизия
 чувствительного у CEO ещё идёт, публиковать до неё — необратимое действие,
 поэтому push сознательно НЕ выполнен, хотя gh-доступ в объёме гейта).
 Публикация после твоего go:
-`cd /Users/ghcernei/Work/qroky-lab && gh repo create qroky/lab --public --source . --remote origin --push`.
+`cd ~/Work/qroky-lab && gh repo create qroky/lab --public --source . --remote origin --push`.
 Снапшот на момент сборки; освежить перед push (мои записи 130 дописались
-после снапшота): `rsync -a --delete /Users/ghcernei/Work/rpf/products/ /Users/ghcernei/Work/qroky-lab/products/`
+после снапшота): `rsync -a --delete ~/Work/rpf/products/ ~/Work/qroky-lab/products/`
 (+ decisions/, TASKS.md — если менялись) и amend/second commit.
 
 ## DoD 2 — sparse-вендоринг

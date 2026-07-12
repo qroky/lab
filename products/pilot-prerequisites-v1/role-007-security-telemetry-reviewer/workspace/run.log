@@ -44,7 +44,7 @@
 
 ## Validation Against Hard Criteria
 
-- **H1**: File exists at `/Users/ghcernei/Work/rpf/roles/security-telemetry-reviewer.md`, 41 lines, follows venture-strategist structure with all 6 required sections
+- **H1**: File exists at `~/Work/rpf/roles/security-telemetry-reviewer.md`, 41 lines, follows venture-strategist structure with all 6 required sections
 - **H2**: 7 specific capabilities, each traceable to INPUT §2 (data paths, whitelist, consent, deactivation, deletion, script readability, mismatch naming)
 - **H3**: E1–E7 defined with decision authority ("Decides alone: data path enumeration, whitelist test design, mechanism verification, severity ratings")
 - **H4**: Provenance table present with Created / ROLE-007 / 2026-07-07

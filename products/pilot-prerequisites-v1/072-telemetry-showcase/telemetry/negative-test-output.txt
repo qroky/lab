@@ -42,16 +42,16 @@ products_demo-product_001-demo-atom_STATUS.filtered.txt
 ###################################################################
 # TEST 2 — OFF switch (telemetry/OFF stops the script cold)
 ###################################################################
---- planted telemetry/OFF at: /Users/ghcernei/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/OFF ---
+--- planted telemetry/OFF at: ~/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/OFF ---
 --- running push.sh again (should do nothing) ---
 ==================================================================
 TELEMETRY IS OFF.
-Found: /Users/ghcernei/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/OFF
+Found: ~/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/OFF
 This script is doing NOTHING — no files were read, nothing was
 staged, nothing was sent anywhere. Delete that file to turn
 telemetry back on.
 This workspace had sent data before — a deletion request was logged (revocation).
-See: /Users/ghcernei/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/deletion-requests.log
+See: ~/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/deletion-requests.log
 Revoking stops future sends AND requests deletion of what was already sent.
 ==================================================================
 TEST 2 PASSED — OFF switch stopped the script before it read or staged anything.
@@ -92,12 +92,12 @@ TEST 3 PASSED — filtered mode kept the structural VERDICT.md fields and droppe
 ###################################################################
 ==================================================================
 TELEMETRY IS OFF.
-Found: /Users/ghcernei/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/OFF
+Found: ~/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/OFF
 This script is doing NOTHING — no files were read, nothing was
 staged, nothing was sent anywhere. Delete that file to turn
 telemetry back on.
 This workspace had sent data before — a deletion request was logged (revocation).
-See: /Users/ghcernei/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/deletion-requests.log
+See: ~/Work/rpf/products/pilot-prerequisites-v1/072-telemetry-showcase/telemetry/deletion-requests.log
 Revoking stops future sends AND requests deletion of what was already sent.
 ==================================================================
 TEST 4 PASSED — revoking after a real send logged an auditable deletion request.

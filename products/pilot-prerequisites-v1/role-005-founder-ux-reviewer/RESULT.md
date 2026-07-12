@@ -1,6 +1,6 @@
 # RESULT — ROLE-005
 
-**Product:** `/Users/ghcernei/Work/rpf/roles/founder-ux-reviewer.md`
+**Product:** `~/Work/rpf/roles/founder-ux-reviewer.md`
 
 **Maturity:** draft
 
@@ -10,7 +10,7 @@
 
 | Criterion | Check | Result | Evidence |
 | :---- | :---- | :---- | :---- |
-| **H1** | File exists, 30–50 lines, follows venture-strategist section set; frontmatter states atoms needing this role | PASS | `/Users/ghcernei/Work/rpf/roles/founder-ux-reviewer.md` exists; `wc -l` = 39 lines; frontmatter: `description` states "ATOM-073 (pilot prerequisites intake review) and any atom whose artifact will be read aloud to a non-technical founder"; sections match template: frontmatter, Identity, Capabilities, Method Defaults, Escalation Posture, Provenance |
+| **H1** | File exists, 30–50 lines, follows venture-strategist section set; frontmatter states atoms needing this role | PASS | `~/Work/rpf/roles/founder-ux-reviewer.md` exists; `wc -l` = 39 lines; frontmatter: `description` states "ATOM-073 (pilot prerequisites intake review) and any atom whose artifact will be read aloud to a non-technical founder"; sections match template: frontmatter, Identity, Capabilities, Method Defaults, Escalation Posture, Provenance |
 | **H2** | Capabilities are specific to §2 (≥5 bullets), no generic filler | PASS | 5 bullets present, all tied to §2 requirements: jargon-leak detection, step counting, cognitive load measurement, expectation-reality verification, decision atomicity tracing. No generic filler ("writes well", "is thorough"). Each bullet actionable and founder-optic-specific. |
 | **H3** | Escalation Posture names triggers E1–E8 + what role decides alone | PASS | All 8 escalation triggers (E1–E8) defined with specific decision gates. Final paragraph names what role decides alone: "exact wording of defect labels, severity assignment (soft/hard), and concrete repair suggestions." |
 | **H4** | Provenance table: Created / ROLE-005 / 2026-07-07 | PASS | Table present with row: Event=Created, Atom=ROLE-005, Date=2026-07-07 |

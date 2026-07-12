@@ -20,7 +20,7 @@ recursion_allowance: 1
 | Atom ID | ATOM-016 |
 | Parent product | Recursive Product Framework v1 |
 | Executor role | framework-architect (exists — F2 satisfied) |
-| Input product(s) | `framework/ATOM-SPEC.md`; `framework/FEV-PROTOCOL.md`; `framework/REPO-STRUCTURE.md`; `framework/ORCHESTRATION.md`; `decisions/INFO-004-perspective-protocol-design-answers.md`; prior art (read-only, external to this repository): `/Users/ghcernei/Work/_BUSOS/council/PROTOCOL.md` and `/Users/ghcernei/Work/_BUSOS/council/templates/`; `knowledge/precedent/` (both files) |
+| Input product(s) | `framework/ATOM-SPEC.md`; `framework/FEV-PROTOCOL.md`; `framework/REPO-STRUCTURE.md`; `framework/ORCHESTRATION.md`; `decisions/INFO-004-perspective-protocol-design-answers.md`; prior art (read-only, external to this repository): [приватный слой — ревизия владельца, GATE-032]; `knowledge/precedent/` (both files) |
 | Consumer(s) | Every future formulating agent (the map and fan duties enter Formulate); synthesis atoms (their operating manual, as FEV-PROTOCOL is for Verify atoms); Verify atoms (new criteria become checkable); the human at gates (lens conflicts arrive as named trade-offs, not stacks of documents) |
 | Maturity target | reviewed |
 | Gates | none placed — trigger gates only; human sign-off per verification mode (brief in Russian per HP2) |
