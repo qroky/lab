@@ -1,0 +1,26 @@
+atom: ATOM-120
+product: Soft Launch Package v1
+status: in-progress
+formulated_by: launch session from CEO order INFO-021 (2026-07-09), amended INFO-030/031/043
+g1: GATE-033 (2026-07-12)
+budget_envelope: 550000
+budget_spent: 0
+children:
+  - id: 121
+    scope: README rewrite + FAQ + docs/UPDATES.md + CONTRIBUTING.md + CHANGELOG alignment (framework, local branch)
+    tier: M
+    envelope: 230000
+    status: dispatched
+  - id: 122
+    scope: messenger handoff EN/RU/RO + wave launch checklist (lab marketing/)
+    tier: M
+    envelope: 100000
+    status: dispatched
+  - id: 121-122-verify
+    scope: blind verify over the text package (H1-H11 machine-checkable)
+    tier: L
+    envelope: 140000
+    status: queued
+gates:
+  g2: CEO reads all outward texts; publication HUMAN-TASK (S4/S5)
+recursion_allowance: 2
